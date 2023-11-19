@@ -53,7 +53,7 @@ void * memmove_16bit(void *dest, const void *src, size_t len);
 void * memmove_32bit(void *dest, const void *src, size_t len);
 void * memmove_64bit(void *dest, const void *src, size_t len); // There is a way :)
 
-void * memcpy_ (void *dest, const void *src, size_t len);
+//void * memcpy_ (void *dest, const void *src, size_t len);
 void * memcpy_16bit(void *dest, const void *src, size_t len);
 void * memcpy_32bit(void *dest, const void *src, size_t len);
 void * memcpy_32bit_16Bytes(void *dest, const void *src, size_t len); // 16 bytes, 4-byte alignmnet
